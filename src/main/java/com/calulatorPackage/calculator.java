@@ -3,7 +3,8 @@ package com.calulatorPackage;
 import java.util.Scanner;
 
 public class calculator {
-    public static void main(String[] args) {
+    public  static void useCalculator() {
+//        Integer firstNumber;
         Scanner userInput = new Scanner(System.in);
         System.out.println("Please enter the first number");
         double firstNumber = userInput.nextDouble();
@@ -14,27 +15,27 @@ public class calculator {
         calculator(firstNumber,secondNumber,operator);
     }
 
-    static double add(double a, double b){
+    public  static double add(double a, double b){
         return a+b;
     }
 
-    static double subtraction(double a, double b){
+    public static double subtraction(double a, double b){
         return a-b;
     }
 
-    static double product(double a, double b){
+    public static double product(double a, double b){
         return a*b;
     }
 
-    static double division(double a, double b){
+    public static double division(double a, double b){
         return a/b;
     }
 
-    static double remainder(double a, double b){
+    public static double remainder(double a, double b){
         return a%b;
     }
 
-    static void calculator(double first, double second, char c){
+    public static void calculator(double first, double second, char c){
         switch (c){
 
             case '+':
