@@ -1,37 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-20T22:31:54Z" name="Command line suite" finished-at="2019-05-20T22:31:54Z" duration-ms="76">
+  <suite started-at="2019-05-21T03:21:34Z" name="Command line suite" finished-at="2019-05-21T03:21:34Z" duration-ms="61">
     <groups>
     </groups>
-    <test started-at="2019-05-20T22:31:54Z" name="Command line test" finished-at="2019-05-20T22:31:54Z" duration-ms="76">
+    <test started-at="2019-05-21T03:21:34Z" name="Command line test" finished-at="2019-05-21T03:21:34Z" duration-ms="61">
+      <class name="divisionZeroTest">
+        <test-method signature="divisionZeroTest()[pri:0, instance:divisionZeroTest@23529fee]" started-at="2019-05-21T03:21:34Z" name="divisionZeroTest" finished-at="2019-05-21T03:21:34Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionZeroTest -->
+        <test-method signature="divisionZeroTest2()[pri:0, instance:divisionZeroTest@23529fee]" started-at="2019-05-21T03:21:34Z" name="divisionZeroTest2" finished-at="2019-05-21T03:21:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionZeroTest2 -->
+        <test-method signature="divisionZeroTest3()[pri:0, instance:divisionZeroTest@23529fee]" started-at="2019-05-21T03:21:34Z" name="divisionZeroTest3" finished-at="2019-05-21T03:21:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionZeroTest3 -->
+      </class> <!-- divisionZeroTest -->
       <class name="subTest">
-        <test-method signature="subTest()[pri:0, instance:subTest@1198b989]" started-at="2019-05-20T22:31:54Z" name="subTest" finished-at="2019-05-20T22:31:54Z" duration-ms="1" status="PASS">
+        <test-method signature="subTest()[pri:0, instance:subTest@4fe767f3]" started-at="2019-05-21T03:21:34Z" name="subTest" finished-at="2019-05-21T03:21:34Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subTest -->
+        <test-method signature="subTest2()[pri:0, instance:subTest@4fe767f3]" started-at="2019-05-21T03:21:34Z" name="subTest2" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subTest2 -->
+        <test-method signature="subTest4()[pri:0, instance:subTest@4fe767f3]" started-at="2019-05-21T03:21:34Z" name="subTest4" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subTest4 -->
+        <test-method signature="subTest3()[pri:0, instance:subTest@4fe767f3]" started-at="2019-05-21T03:21:34Z" name="subTest3" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subTest3 -->
+        <test-method signature="subTest5()[pri:0, instance:subTest@4fe767f3]" started-at="2019-05-21T03:21:34Z" name="subTest5" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subTest5 -->
       </class> <!-- subTest -->
       <class name="additionTest">
-        <test-method signature="additionTest()[pri:0, instance:additionTest@6e75aa0d]" started-at="2019-05-20T22:31:54Z" name="additionTest" finished-at="2019-05-20T22:31:54Z" duration-ms="11" status="PASS">
+        <test-method signature="additionTest()[pri:0, instance:additionTest@7692d9cc]" started-at="2019-05-21T03:21:34Z" name="additionTest" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- additionTest -->
       </class> <!-- additionTest -->
+      <class name="additionNegativeTest">
+        <test-method signature="additionNegativeTest()[pri:0, instance:additionNegativeTest@2a32de6c]" started-at="2019-05-21T03:21:34Z" name="additionNegativeTest" finished-at="2019-05-21T03:21:34Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionNegativeTest -->
+        <test-method signature="additionNegativeTest2()[pri:0, instance:additionNegativeTest@2a32de6c]" started-at="2019-05-21T03:21:34Z" name="additionNegativeTest2" finished-at="2019-05-21T03:21:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionNegativeTest2 -->
+        <test-method signature="additionNegativeTest3()[pri:0, instance:additionNegativeTest@2a32de6c]" started-at="2019-05-21T03:21:34Z" name="additionNegativeTest3" finished-at="2019-05-21T03:21:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionNegativeTest3 -->
+        <test-method signature="additionNegativeTest4()[pri:0, instance:additionNegativeTest@2a32de6c]" started-at="2019-05-21T03:21:34Z" name="additionNegativeTest4" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionNegativeTest4 -->
+        <test-method signature="additionNegativeTest5()[pri:0, instance:additionNegativeTest@2a32de6c]" started-at="2019-05-21T03:21:34Z" name="additionNegativeTest5" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionNegativeTest5 -->
+      </class> <!-- additionNegativeTest -->
       <class name="productTest">
-        <test-method signature="productTest()[pri:0, instance:productTest@2cbb3d47]" started-at="2019-05-20T22:31:54Z" name="productTest" finished-at="2019-05-20T22:31:54Z" duration-ms="1" status="PASS">
+        <test-method signature="productTest()[pri:0, instance:productTest@7f1302d6]" started-at="2019-05-21T03:21:34Z" name="productTest" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productTest -->
+        <test-method signature="productTest3()[pri:0, instance:productTest@7f1302d6]" started-at="2019-05-21T03:21:34Z" name="productTest3" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest3 -->
+        <test-method signature="productTest4()[pri:0, instance:productTest@7f1302d6]" started-at="2019-05-21T03:21:34Z" name="productTest4" finished-at="2019-05-21T03:21:34Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest4 -->
+        <test-method signature="productTest2()[pri:0, instance:productTest@7f1302d6]" started-at="2019-05-21T03:21:34Z" name="productTest2" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest2 -->
+        <test-method signature="productTest5()[pri:0, instance:productTest@7f1302d6]" started-at="2019-05-21T03:21:34Z" name="productTest5" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest5 -->
+        <test-method signature="productTest6()[pri:0, instance:productTest@7f1302d6]" started-at="2019-05-21T03:21:34Z" name="productTest6" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest6 -->
       </class> <!-- productTest -->
       <class name="remainderTest">
-        <test-method signature="remainderTest()[pri:0, instance:remainderTest@527e5409]" started-at="2019-05-20T22:31:54Z" name="remainderTest" finished-at="2019-05-20T22:31:54Z" duration-ms="0" status="PASS">
+        <test-method signature="remainderTest()[pri:0, instance:remainderTest@43ee72e6]" started-at="2019-05-21T03:21:34Z" name="remainderTest" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remainderTest -->
       </class> <!-- remainderTest -->
       <class name="divisionTest">
-        <test-method signature="divisionTest()[pri:0, instance:divisionTest@7fc229ab]" started-at="2019-05-20T22:31:54Z" name="divisionTest" finished-at="2019-05-20T22:31:54Z" duration-ms="0" status="PASS">
+        <test-method signature="divisionTest()[pri:0, instance:divisionTest@75f32542]" started-at="2019-05-21T03:21:34Z" name="divisionTest" finished-at="2019-05-21T03:21:34Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divisionTest -->

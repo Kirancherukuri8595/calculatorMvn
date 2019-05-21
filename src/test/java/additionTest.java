@@ -7,8 +7,8 @@ public class additionTest {
 
     @Test
     public void additionTest(){
-        double result = calculator.add(5,6);
-        double expected = 11;
+        Integer result = calculator.add(5,6);
+        Integer expected = 11;
         Assert.assertEquals(expected,result);
     }
 

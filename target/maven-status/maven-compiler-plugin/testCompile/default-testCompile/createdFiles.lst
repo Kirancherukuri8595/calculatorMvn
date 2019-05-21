@@ -1,5 +1,15 @@
 additionTest.class
-productTest.class
-divisionTest.class
+remNegativeTests.class
 remainderTest.class
+divisionZeroTest.class
+remNullTests.class
+subNullTests.class
+divisionNegativeTests.class
+divisionNullTests.class
+divisionTest.class
 subTest.class
+productNullTests.class
+additionNegativeTest.class
+productTest.class
+additionNullTests.class
+remZeroTests.class

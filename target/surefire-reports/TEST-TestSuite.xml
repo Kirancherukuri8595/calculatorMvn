@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="TestSuite" time="0.014" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="TestSuite" time="0.02" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+9-LTS"/>
@@ -64,9 +64,26 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="additionTest" name="additionTest" time="0.012"/>
+  <testcase classname="additionNegativeTest" name="additionNegativeTest" time="0.013"/>
+  <testcase classname="additionNegativeTest" name="additionNegativeTest2" time="0"/>
+  <testcase classname="additionNegativeTest" name="additionNegativeTest3" time="0"/>
+  <testcase classname="additionNegativeTest" name="additionNegativeTest4" time="0.001"/>
+  <testcase classname="additionNegativeTest" name="additionNegativeTest5" time="0.001"/>
+  <testcase classname="additionTest" name="additionTest" time="0"/>
   <testcase classname="divisionTest" name="divisionTest" time="0.001"/>
   <testcase classname="productTest" name="productTest" time="0"/>
-  <testcase classname="remainderTest" name="remainderTest" time="0.001"/>
+  <testcase classname="productTest" name="productTest2" time="0"/>
+  <testcase classname="productTest" name="productTest3" time="0"/>
+  <testcase classname="productTest" name="productTest4" time="0"/>
+  <testcase classname="productTest" name="productTest5" time="0.001"/>
+  <testcase classname="productTest" name="productTest6" time="0"/>
+  <testcase classname="remainderTest" name="remainderTest" time="0"/>
+  <testcase classname="divisionZeroTest" name="divisionZeroTest" time="0.002"/>
+  <testcase classname="divisionZeroTest" name="divisionZeroTest2" time="0"/>
+  <testcase classname="divisionZeroTest" name="divisionZeroTest3" time="0.001"/>
   <testcase classname="subTest" name="subTest" time="0"/>
+  <testcase classname="subTest" name="subTest2" time="0"/>
+  <testcase classname="subTest" name="subTest3" time="0"/>
+  <testcase classname="subTest" name="subTest4" time="0"/>
+  <testcase classname="subTest" name="subTest5" time="0"/>
 </testsuite>

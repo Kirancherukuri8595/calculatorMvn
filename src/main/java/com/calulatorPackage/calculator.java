@@ -3,39 +3,39 @@ package com.calulatorPackage;
 import java.util.Scanner;
 
 public class calculator {
-    public  static void useCalculator() {
+    public  static void main(String[] args) {
 //        Integer firstNumber;
         Scanner userInput = new Scanner(System.in);
         System.out.println("Please enter the first number");
-        double firstNumber = userInput.nextDouble();
+        Integer firstNumber = userInput.nextInt();
         System.out.println("Please enter the second number");
-        double secondNumber = userInput.nextDouble();
+        Integer secondNumber = userInput.nextInt();
         System.out.println("Please enter an operator '+' or '-' or '*' or '/' or '%' ");
         char operator = userInput.next().charAt(0);
         calculator(firstNumber,secondNumber,operator);
     }
 
-    public  static double add(double a, double b){
+    public  static Integer add(Integer a, Integer b){
         return a+b;
     }
 
-    public static double subtraction(double a, double b){
+    public static Integer subtraction(Integer a, Integer b){
         return a-b;
     }
 
-    public static double product(double a, double b){
+    public static Integer product(Integer a, Integer b){
         return a*b;
     }
 
-    public static double division(double a, double b){
+    public static Integer division(Integer a, Integer b){
         return a/b;
     }
 
-    public static double remainder(double a, double b){
+    public static Integer remainder(Integer a, Integer b){
         return a%b;
     }
 
-    public static void calculator(double first, double second, char c){
+    public static void calculator(Integer first, Integer second, char c){
         switch (c){
 
             case '+':
